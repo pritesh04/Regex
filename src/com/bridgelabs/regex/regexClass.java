@@ -42,7 +42,7 @@ public class regexClass {
 		
 		}
 		String Uc5="[a-zA-Z]{8,}";
-		String  pass="priteshRAj";
+		String  pass="priteshRaj";
 		if(pass.matches(Uc5))
 		{
 			System.out.println("Valid pass  ");
@@ -50,10 +50,19 @@ public class regexClass {
 		else {
 			System.out.println("Not valid pass");
 		}
-		String Uc6="((?=.*[A-Z])[a-zA-Z]{8,})";
+		String Uc6="(?=.*[A-Z])[a-zA-Z]{8,}";
 		if(pass.matches(Uc6))
 		{
-			System.out.println("Valid pass  ");
+			System.out.println("Valid pass ");
+		}
+		else {
+			System.out.println("Not valid pass");
+		}
+		String Uc7="(?=.*[A-Z])[a-zA-Z0-9]{8,}";
+		String  passForUc7="p22riteshRAj";
+		if(passForUc7.matches(Uc7))
+		{
+			System.out.println("Valid password  ");
 		}
 		else {
 			System.out.println("Not valid pass ");
