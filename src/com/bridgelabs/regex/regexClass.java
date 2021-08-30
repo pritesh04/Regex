@@ -1,5 +1,7 @@
 package com.bridgelabs.regex;
 
+import java.util.Scanner;
+
 public class regexClass {
 	public static void main(String[] args) {
 		String Uc1= "^[A-Z][a-zA-z]{2,}";
@@ -67,6 +69,7 @@ public class regexClass {
 		else {
 			System.out.println("Not valid pass ");
 		}
+		
 		
 	}
 }
