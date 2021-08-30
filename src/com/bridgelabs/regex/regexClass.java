@@ -69,7 +69,7 @@ public class regexClass {
 		else {
 			System.out.println("Not valid pass ");
 		}
-//		String Uc8="(?=.*[A-Z])(?=.*[@].*[#].*[$]{1})[a-zA-Z0-9]{8,}";
+
 		String Uc8= "^(?=.{8,}$)(?=.*[a-z])(?=.*[A-Z]).*$";
 		String  passForUc8="priteshR2Aj#";
 		if(passForUc8.matches(Uc8))
@@ -79,18 +79,7 @@ public class regexClass {
 		else {
 			System.out.println("Not valid pass ");
 		}
-//		Scanner sc= new Scanner(System.in);
-//		System.out.println("ENter password");
-//		String  passForUc9=sc.next();
-//		String Uc9="(?=.*[A-Z])(?=.*[@#$]{1})[a-zA-Z0-9]{8,}";
-//		//String  passForUc9="p22r$iteshRAj";
-//		if(passForUc9.matches(Uc9))
-//		{
-//			System.out.println("Valid password with special char ");
-//		}
-//		else {
-//			System.out.println("Not valid pass ");
-//		}
+
 		
 	}
 }
