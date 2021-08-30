@@ -11,7 +11,14 @@ public class regexClass {
 		else {
 			System.out.println("Not ok");
 		}
-
 		
+		String lastName="Pri";
+		if(lastName.matches(Uc1))
+		{
+			System.out.println("Valid Last name ");
+		}
+		else {
+			System.out.println("Not valid last name");
+		}
 	}
 }
