@@ -2,14 +2,15 @@ package com.bridgelabs.regex;
 
 public class regexClass {
 	public static void main(String[] args) {
-		String Uc3="[a-zA-Z0-9.]{1,}[@][a-z]{2,}[.][a-z]{2,3}[.][a-z]{2,3}";
-		String email="pritesh.212@gmail.co.in";
-		if(email.matches(Uc3))
+		
+		String Uc4="^[91]{2}\s[0-9]{10}";
+		String  num="91 8928877307";
+		if(num.matches(Uc4))
 		{
-			System.out.println("Valid email  ");
+			System.out.println("Valid mob no  ");
 		}
 		else {
-			System.out.println("Not valid emailId");
+			System.out.println("Not valid mob no");
 		}
 		
 	}
